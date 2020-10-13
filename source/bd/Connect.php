@@ -5,7 +5,12 @@ namespace Source\bd;
 
 use PDO;
 
-require_once __DIR__."/../../vendor/autoload.php";
+require_once $_SERVER['DOCUMENT_ROOT'].DIR_AUTOLOAD;
+
+/**
+ * Class Connect
+ * @package Source\bd
+ */
 class Connect
 {
     private $connect;
