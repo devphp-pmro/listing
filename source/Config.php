@@ -1,8 +1,8 @@
 <?php
 
 define("DB",[
-     "host" => "host",
-     "data_base" => "data_base",
-     "user" => "user",
-      "password" => "password"
+     "host" => "localhost",
+     "data_base" => "69550_dedic",
+     "user" => "root",
+      "password" => ""
     ]);

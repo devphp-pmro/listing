@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Source\Bd;
+namespace Source\bd;
 
 use PDO;
 
@@ -30,7 +30,7 @@ class Connect
 
     public function getInstance()
     {
-        $this->conect = new pdo("mysql:host=".CONF['host'].";dbname=".CONF['base_dados']."", CONF['user'], CONF['password'],
+        $this->conect = new pdo("mysql:host=".DB['host'].";dbname=".DB['data_base']."", DB['user'], DB['password'],
             array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 
         if (!$this->conect) {

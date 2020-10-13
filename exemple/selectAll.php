@@ -19,7 +19,7 @@ use Source\_App\Listing;
     Select
     <select>
         <?php
-            $selectAll = (new Listing())->selectAll("table","optionValue","visible");
+            $selectAll = (new Listing())->selectAll("tborgao_expedidor","Sigla","Nome_orgao");
         ?>
     </select>
 </label>
