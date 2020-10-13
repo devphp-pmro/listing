@@ -1,0 +1,28 @@
+{
+  "name": "devphp-pmro/listing",
+  "description": "data listing in tag select field, without formatting",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Leonardo Magalhães",
+      "email": "devphp.pmro@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
